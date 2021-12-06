@@ -1,0 +1,31 @@
+.Paragraph{
+    
+    text-align: center;
+    color: dodgerblue;
+}
+.ParagraphText{
+    text-align: center;
+    color: blue;
+}
+.ParagraphText:nth-of-type(2n){
+    background-color: burlywood;
+}
+
+button:hover{
+    background-color: chartreuse;
+}
+button:active{
+    background-color: crimson;
+}
+.moreLinks{
+    font-weight: 700;
+    text-decoration: none;
+    
+}
+
+
+.moreLinks:hover{
+    text-decoration: underline;
+    color: red;
+   
+}
